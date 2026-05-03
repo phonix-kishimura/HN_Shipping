@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - HN SHIPPING & TRADING CO., LTD</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./Logo HN shipping.png" alt="">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="fleet.html" data-i18n="nav.fleet">Fleet</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="langToggle" class="lang-toggle">
+          <i class="fa-solid fa-globe"></i> <span data-i18n="toggle.lang">VN</span>
+        </button>
+        <div class="menu-toggle" id="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <h1 data-i18n="page.contact.title">Contact Information</h1>
+    </div>
+
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>HN SHIPPING AND TRADING CO., LTD</h2>
+          <div class="info-item">
+            <i class="fa-solid fa-file-signature"></i>
+            <div>
+              <strong data-i18n="contact.registry.label">Registry Address:</strong><br>
+              <span data-i18n="contact.registry.val">Paris 02.19 Vinhomes Imperia, Hong Bang ward, Hai Phong city,
+                Vietnam</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-building"></i>
+            <div>
+              <strong data-i18n="contact.office.label">Office Address:</strong><br>
+              <span data-i18n="contact.office.val">R.1503, 15th floor, Cat Bi Plaza, No.1A Le Hong Phong street, Ngo
+                Quyen ward, Haiphong City, Vietnam</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong data-i18n="contact.tel.label">Telephone:</strong><br>
+              <span data-i18n="contact.tel.val">+84 2253 668079</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-fax"></i>
+            <div>
+              <strong data-i18n="contact.fax.label">Fax:</strong><br>
+              <span data-i18n="contact.fax.val">+84 2253 668079</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong data-i18n="contact.email.label">Email:</strong><br>
+              <span data-i18n="contact.email.val">info@hnshipping.com.vn</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2 data-i18n="contact.form.title">Send us a message</h2>
+          <form onsubmit="event.preventDefault(); alert('Message sent successfully! (Demo)');">
+            <div class="form-group">
+              <label for="name" data-i18n="contact.form.name">Your Name</label>
+              <input type="text" id="name" required data-i18n="contact.form.name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="contact.form.email">Your Email</label>
+              <input type="email" id="email" required data-i18n="contact.form.email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="contact.form.message">Message</label>
+              <textarea id="message" rows="5" required data-i18n="contact.form.message"
+                placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn-submit" data-i18n="contact.form.submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <i class="fa-solid fa-ship"></i> <span>HN SHIPPING</span>
+      </div>
+      <div class="footer-contact">
+        <p><i class="fa-solid fa-location-dot"></i> <span data-i18n="contact.office.val">R.1503, 15th floor, Cat Bi
+            Plaza, No.1A Le Hong Phong street, Ngo Quyen ward, Haiphong City, Vietnam</span></p>
+        <p><i class="fa-solid fa-phone"></i> <span data-i18n="contact.tel.val">+84 2253 668079</span></p>
+        <p><i class="fa-solid fa-envelope"></i> <span data-i18n="contact.email.val">info@hnshipping.com.vn</span></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.rights">© 2026 HN SHIPPING & TRADING CO., LTD. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

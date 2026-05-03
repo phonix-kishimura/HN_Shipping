@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HN SHIPPING & TRADING CO., LTD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Logo HN shipping.png" alt="">
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+                <li><a href="fleet.html" data-i18n="nav.fleet">Fleet</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="langToggle" class="lang-toggle">
+                    <i class="fa-solid fa-globe"></i> <span data-i18n="toggle.lang">VN</span>
+                </button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1 data-i18n="slogan">SIMPLE YET EFFECTIVE</h1>
+
+            <div class="quick-links">
+                <div class="card" onclick="window.location.href='about.html'">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h3 data-i18n="home.about.title">About Us</h3>
+                    <p data-i18n="home.about.desc">Dynamic and forward-thinking maritime transport company.</p>
+                </div>
+                <div class="card" onclick="window.location.href='services.html'">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h3 data-i18n="home.services.title">Our Services</h3>
+                    <p data-i18n="home.services.desc">Efficient operation, chartering, and cargo brokerage.</p>
+                </div>
+                <div class="card" onclick="window.location.href='fleet.html'">
+                    <i class="fa-solid fa-anchor"></i>
+                    <h3 data-i18n="home.fleet.title">Our Fleet</h3>
+                    <p data-i18n="home.fleet.desc">Modern vessels equipped for international maritime market.</p>
+                </div>
+                <div class="card" onclick="window.location.href='contact.html'">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3 data-i18n="home.contact.title">Contact Us</h3>
+                    <p data-i18n="home.contact.desc">Get in touch with our professional team today.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>HN SHIPPING & TRADING CO., LTD</span>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fa-solid fa-location-dot"></i> <span data-i18n="contact.office.val">R.1503, 15th floor, Cat
+                        Bi Plaza, No.1A Le Hong Phong street, Ngo Quyen ward, Haiphong City, Vietnam</span></p>
+                <p><i class="fa-solid fa-phone"></i> <span data-i18n="contact.tel.val">+84 2253 668079</span></p>
+                <p><i class="fa-solid fa-envelope"></i> <span
+                        data-i18n="contact.email.val">info@hnshipping.com.vn</span></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer.rights">© 2026 HN SHIPPING & TRADING CO., LTD. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
