@@ -331,6 +331,7 @@ main {
   display: grid;
   grid-template-columns: 1fr ;
   gap: 3rem;
+  overflow: auto;
 }
 
 .contact-info {
