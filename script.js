@@ -7,7 +7,7 @@ const langData = {
     "nav.fleet": "Fleet",
     "nav.contact": "Contact",
     "toggle.lang": "VN",
-    "slogan": "SIMPLE YET EFFECTIVE",
+    "slogan": "SAFETY TODAY, SUCCESS TOMORROW",
     "footer.rights": "© 2026 HN SHIPPING & TRADING CO., LTD. All rights reserved.",
 
     // Home Cards
@@ -54,7 +54,7 @@ const langData = {
     "nav.fleet": "Đội tàu",
     "nav.contact": "Liên hệ",
     "toggle.lang": "EN",
-    "slogan": "ĐƠN GIẢN NHƯNG HIỆU QUẢ",
+    "slogan": "AN TOÀN HÔM NAY, THÀNH CÔNG NGÀY MAI",
     "footer.rights": "© 2026 Công ty TNHH Vận tải biển và Thương mại HN. Bảo lưu mọi quyền.",
 
     // Home Cards
