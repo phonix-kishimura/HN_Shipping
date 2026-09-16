@@ -19,7 +19,7 @@ const langData = {
     // About
     "page.about.title": "About HN SHIPPING & TRADING",
     "about.box1.title": "HN SHIPPING & TRADING CO., LTD",
-    "about.box1.desc": "Established on September 17, 2021, HN SHIPPING & TRADING CO., LTD (HN SHIPPING) is a dynamic and forward-thinking maritime transport company. The company achieved a significant milestone in 2024 with the acquisition of its first vessel, followed by the expansion of its fleet with an additional small tween-decker.",
+    "about.box1.desc": "Established on September 17, 2021, HN SHIPPING & TRADING CO., LTD (HN SHIPPING) is a dynamic and forward-thinking maritime transport company. The Company achieved a significant milestone in October 2024 with the acquisition of its first MPP vessel, followed by the addition of a second MPP vessel to its fleet in May 2026.",
     "about.box2.desc": "While relatively new, the company is founded and operated by a team of highly experienced professionals with deep expertise in the shipping industry. This strong leadership foundation enables HN SHIPPING to ensure reliable operations, strategic growth, and long-term value creation.",
     "about.box3.desc": "Looking ahead, the company is committed to further expanding its fleet, with a clear ambition to acquire larger vessels in the near future. By continuously enhancing its operational capabilities and fleet capacity, HN SHIPPING aims to strengthen its position and establish a reputable presence in the international maritime market.",
 
@@ -66,7 +66,7 @@ const langData = {
     // About
     "page.about.title": "Giới thiệu về TNHH Vận tải biển và Thương mại HN",
     "about.box1.title": "Công ty TNHH Vận tải biển và Thương mại HN",
-    "about.box1.desc": "Công ty TNHH Vận tải biển và Thương mại HN (HN SHIPPING), được thành lập vào ngày 17 tháng 9 năm 2021, là một doanh nghiệp năng động và định hướng phát triển trong lĩnh vực vận tải biển. Năm 2024 đánh dấu một cột mốc quan trọng trong quá trình phát triển của công ty với việc sở hữu con tàu đầu tiên, tiếp đó là việc mở rộng đội tàu với một tàu small tween-decker thứ hai.",
+    "about.box1.desc": "Công ty TNHH Vận tải biển và Thương mại HN (HN SHIPPING), được thành lập vào ngày 17 tháng 9 năm 2021, là một doanh nghiệp năng động và định hướng phát triển trong lĩnh vực vận tải biển. Tháng 10 năm 2024 đánh dấu một cột mốc quan trọng trong quá trình phát triển của Công ty với việc sở hữu tàu MPP đầu tiên, tiếp đó là việc mở rộng đội tàu với tàu MPP thứ hai vào tháng 5 năm 2026.",
     "about.box2.desc": "Mặc dù còn là một doanh nghiệp trẻ, công ty được sáng lập và điều hành bởi đội ngũ chuyên gia giàu kinh nghiệm, có nền tảng chuyên môn sâu rộng trong ngành hàng hải. Nền tảng lãnh đạo vững chắc này giúp HN SHIPPING đảm bảo hoạt động khai thác hiệu quả, định hướng phát triển chiến lược và tạo ra giá trị bền vững trong dài hạn.",
     "about.box3.desc": "Hướng tới tương lai, công ty cam kết tiếp tục mở rộng đội tàu, với mục tiêu rõ ràng là đầu tư và sở hữu các tàu có trọng tải lớn hơn trong thời gian tới. Thông qua việc không ngừng nâng cao năng lực khai thác và quy mô đội tàu, HN SHIPPING đặt mục tiêu củng cố vị thế và xây dựng uy tín vững chắc trên thị trường vận tải biển quốc tế.",
 
